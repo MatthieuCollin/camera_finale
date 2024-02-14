@@ -166,9 +166,9 @@ class TakePictureScreenState extends State<MyApp> {
           },
           items: const [
             BottomNavigationBarItem(
-                icon: Icon(Icons.collections), label: "home"),
+                icon: Icon(Icons.camera_alt), label: "Capture !"),
             BottomNavigationBarItem(
-                icon: Icon(Icons.camera_alt), label: "Photo"),
+                icon: Icon(Icons.collections), label: "Liste des golems !"),
           ]),
     );
   }
@@ -220,7 +220,7 @@ class DisplayPictureScreen extends StatelessWidget {
                     );
                   }
                 },
-                child: const Text('Submit'),
+                child: const Text('Ajouter !'),
               ),
 
               // Add TextFormFields and ElevatedButton here.
