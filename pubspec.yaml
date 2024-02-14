@@ -1,0 +1,32 @@
+name: camera_finale
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  camera: ^0.10.5+9
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+      - assets/moi.jpg
+      - assets/leo.jpg
+      - assets/fabrice.jpg
+      - assets/eric.jpg
+      - assets/anthonin.jpg
+      - assets/pierre.jpg 
+      - assets/alexis.jpg 
+      - assets/axel.jpg
+      - assets/kylian.jpg
+      - assets/thibault.jpg
+      - assets/romain.jpg
